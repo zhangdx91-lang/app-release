@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "productVersion": "1.1.0",
+  "bundleVersion": "1.1.0+6",
+  "minimumNativeBuild": 6,
+  "dataSchemaVersion": 1,
+  "publishedAt": "2026-08-27T11:38:07.478Z",
+  "releaseNotes": [
+    "网页版支持自动更新：一次安装永久免换包，点检查更新即可升级",
+    "网页版更新增加恢复内置版本入口，更新失败可回退",
+    "发布流程全自动化"
+  ],
+  "webBundle": {
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.1.0.zip",
+    "sha256": "e70ecfc8e526fa4b19e1043984a83ca020cf1ba57edc281fecbcbda5bca099cf",
+    "size": 1072777
+  },
+  "androidApk": {
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.1.0.apk",
+    "sha256": "d63de7ad82ec74ae588fdc8498f2503e0723013b9d5c560366efcb7927dd14b0",
+    "size": 15172887
+  },
+  "webApp": {
+    "url": "https://cdn.jsdelivr.net/gh/zhangdx91-lang/app-release@v1.1.0/cdn/money-app-webapp-1.1.0.html",
+    "sha256": "913650898bcbbe0aeb87182c2c970dd1a73e9cfb63229097f06f6e565fccbb2f",
+    "size": 681790
+  },
+  "signature": "wn0e4mtsFN46U1pc9X7zPNDTqJXUTK4POv_8dWKFz07wThfSJ0iO3tWwttC0J34ZWD-I9i6N9-WTz_Z4flEaAg"
+}
