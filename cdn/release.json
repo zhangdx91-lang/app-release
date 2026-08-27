@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "productVersion": "1.1.0",
-  "bundleVersion": "1.1.0+6",
+  "productVersion": "1.1.1",
+  "bundleVersion": "1.1.1+6",
   "minimumNativeBuild": 6,
   "dataSchemaVersion": 1,
-  "publishedAt": "2026-08-27T11:38:07.478Z",
+  "publishedAt": "2026-08-27T13:05:27.321Z",
   "releaseNotes": [
-    "网页版支持自动更新：一次安装永久免换包，点检查更新即可升级",
-    "网页版更新增加恢复内置版本入口，更新失败可回退",
-    "发布流程全自动化"
+    "首页新增备份提醒横幅：未备份流水达到阈值时顶部显示提示，点一键备份调起系统分享",
+    "备份提醒阈值可在设置中自定义（默认 50，范围 1~100）",
+    "备份走 navigator.share（网页）或系统分享面板（安卓），无需翻文件管理器"
   ],
   "webBundle": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.1.0.zip",
-    "sha256": "e70ecfc8e526fa4b19e1043984a83ca020cf1ba57edc281fecbcbda5bca099cf",
-    "size": 1072777
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.1.1.zip",
+    "sha256": "cca75c55617402fab83e4d5d7fb8060c5b480f9628c80f62eaa3119680730239",
+    "size": 1082446
   },
   "androidApk": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.1.0.apk",
-    "sha256": "d63de7ad82ec74ae588fdc8498f2503e0723013b9d5c560366efcb7927dd14b0",
-    "size": 15172887
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.1.1.apk",
+    "sha256": "ce7493d209628b23b97595afc1db69e3eff572acb791e12183a758bd086fe700",
+    "size": 15182527
   },
   "webApp": {
-    "url": "https://cdn.jsdelivr.net/gh/zhangdx91-lang/app-release@v1.1.0/cdn/money-app-webapp-1.1.0.html",
-    "sha256": "913650898bcbbe0aeb87182c2c970dd1a73e9cfb63229097f06f6e565fccbb2f",
-    "size": 681790
+    "url": "https://cdn.jsdelivr.net/gh/zhangdx91-lang/app-release@v1.1.1/cdn/money-app-webapp-1.1.1.html",
+    "sha256": "082aa57fbcaabbb90e7461bff17eb2c2012777affb738e8f767986416a5944c7",
+    "size": 688849
   },
-  "signature": "wn0e4mtsFN46U1pc9X7zPNDTqJXUTK4POv_8dWKFz07wThfSJ0iO3tWwttC0J34ZWD-I9i6N9-WTz_Z4flEaAg"
+  "signature": "Abkk_E8hQ5VflX9GIHaq1qBAt9QOUTlzQsPKZLfmAmTtrw8uN7tOyWCZS-aplhhCtbvB7tsqWOIYa9keIP4aAQ"
 }
