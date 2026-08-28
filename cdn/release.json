@@ -1,28 +1,27 @@
 {
   "schemaVersion": 1,
-  "productVersion": "1.0.14",
-  "bundleVersion": "1.0.14+7",
+  "productVersion": "1.0.15",
+  "bundleVersion": "1.0.15+7",
   "minimumNativeBuild": 7,
   "dataSchemaVersion": 1,
-  "publishedAt": "2026-08-28T05:29:09.820Z",
+  "publishedAt": "2026-08-28T05:34:19.677Z",
   "releaseNotes": [
-    "修复网页版更新时可能一直停留在「正在更新中」的问题",
-    "下载增加超时与多镜像自动切换，失败时给出明确提示"
+    "授权页激活后显示当前授权码并支持复制，换设备重输更方便"
   ],
   "webBundle": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.14.zip",
-    "sha256": "a9c8e150f1fa7a4ad3dfee059def11ed50baaecd24f27b994f62e8360f661798",
-    "size": 1077554
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.15.zip",
+    "sha256": "4c0ff04ace8eed355d93fd15aea40605ab2e6f15fd35d5d4dd1160d782ccdd8b",
+    "size": 1080071
   },
   "androidApk": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.14.apk",
-    "sha256": "5b9903e76f5e834ee29a61632851eebf7db1ba8241c35e2069db7449a04c38c5",
-    "size": 15177800
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.15.apk",
+    "sha256": "d4e7659bb3d9b1c021b610aeedd31a721159e2d808d23009d64ccafe6c884511",
+    "size": 15180316
   },
   "webApp": {
-    "url": "https://cdn.jsdelivr.net/gh/zhangdx91-lang/app-release@v1.0.14/cdn/money-app-webapp-1.0.14.html",
-    "sha256": "31c323a8230c7d088e682c3e305797950052c9a26cc3bb40733d22282fb2586d",
-    "size": 879376
+    "url": "https://cdn.jsdelivr.net/gh/zhangdx91-lang/app-release@v1.0.15/cdn/money-app-webapp-1.0.15.html",
+    "sha256": "6077549da2dabac00099fd7f469d56303754322a5ff6e982bc31ef534e9de881",
+    "size": 880224
   },
-  "signature": "6q8swK7F3IhGg2l4pzSJGZW3YXlyeAr5HkWnELcQ66amjoP7A-7mzFzRCBmcCY3aFHyXc8uKTICu-0RgTw65Dw"
+  "signature": "LTx-9-fvkVEfE9rCERAlKy8nyYqvjrEb4BHOo6UFN32YmU-ABpgn9JuZTMRSISGuUnchY8zAXKOOrDiH7TkuCg"
 }
