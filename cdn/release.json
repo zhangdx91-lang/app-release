@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "productVersion": "1.0.12",
-  "bundleVersion": "1.0.12+7",
+  "productVersion": "1.0.13",
+  "bundleVersion": "1.0.13+7",
   "minimumNativeBuild": 7,
   "dataSchemaVersion": 1,
-  "publishedAt": "2026-08-28T04:46:00.761Z",
+  "publishedAt": "2026-08-28T05:17:00.332Z",
   "releaseNotes": [
-    "修复安卓备份写入公共目录报错，备份文件直存手机「下载」文件夹",
-    "备份页按钮拆分：备份到手机本地 / 备份并分享",
-    "首页横幅一键备份：安卓存本地，网页版走分享"
+    "修复网页版二维码图片不显示（内嵌进单文件）",
+    "取消授权码设备指纹绑定，输码即激活，更换设备重新输码即可",
+    "授权页简化：显示有效期，发码工具一条命令直接生成"
   ],
   "webBundle": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.12.zip",
-    "sha256": "73ce43004bae56ddd34af3bcd30f667b1366efdac001c185be6b880cdce20169",
-    "size": 1083723
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.13.zip",
+    "sha256": "a9c8e150f1fa7a4ad3dfee059def11ed50baaecd24f27b994f62e8360f661798",
+    "size": 1077554
   },
   "androidApk": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.12.apk",
-    "sha256": "730b599897d126b87283888f2dd2826552bac5c8c5b2e15bc91476ca93ab1ea1",
-    "size": 15183815
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.13.apk",
+    "sha256": "5b9903e76f5e834ee29a61632851eebf7db1ba8241c35e2069db7449a04c38c5",
+    "size": 15177800
   },
   "webApp": {
-    "url": "https://cdn.jsdelivr.net/gh/zhangdx91-lang/app-release@v1.0.12/cdn/money-app-webapp-1.0.12.html",
-    "sha256": "088207e98ee52fc037ad28c784d2a2f1234d464ab597bcbf147605291201a88b",
-    "size": 689205
+    "url": "https://cdn.jsdelivr.net/gh/zhangdx91-lang/app-release@v1.0.13/cdn/money-app-webapp-1.0.13.html",
+    "sha256": "b58f96e817b5314826e8561300e4a541c7798096291bb7d82d2ee973d0c3b0f5",
+    "size": 878865
   },
-  "signature": "Z3XVnDnvBGRKePEjFOrK2M7w_NjJcbFDfxwObGNrWDQsU3AFrge5w8mydLTdRvi3uS9iWNrYNhO-CoKZ_lU2BQ"
+  "signature": "VWqiKQeWVmc4g-eQXccmxHqZEk6lv6nq_DpJOdeEOyDcd5s8eTgijFNIT2bqszzBoqNdw8GNzZ64Cj9YPGwoCg"
 }
