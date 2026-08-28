@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "productVersion": "1.1.1",
-  "bundleVersion": "1.1.1+6",
-  "minimumNativeBuild": 6,
+  "productVersion": "1.0.12",
+  "bundleVersion": "1.0.12+7",
+  "minimumNativeBuild": 7,
   "dataSchemaVersion": 1,
-  "publishedAt": "2026-08-27T13:05:27.321Z",
+  "publishedAt": "2026-08-28T04:46:00.761Z",
   "releaseNotes": [
-    "首页新增备份提醒横幅：未备份流水达到阈值时顶部显示提示，点一键备份调起系统分享",
-    "备份提醒阈值可在设置中自定义（默认 50，范围 1~100）",
-    "备份走 navigator.share（网页）或系统分享面板（安卓），无需翻文件管理器"
+    "修复安卓备份写入公共目录报错，备份文件直存手机「下载」文件夹",
+    "备份页按钮拆分：备份到手机本地 / 备份并分享",
+    "首页横幅一键备份：安卓存本地，网页版走分享"
   ],
   "webBundle": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.1.1.zip",
-    "sha256": "cca75c55617402fab83e4d5d7fb8060c5b480f9628c80f62eaa3119680730239",
-    "size": 1082446
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.12.zip",
+    "sha256": "73ce43004bae56ddd34af3bcd30f667b1366efdac001c185be6b880cdce20169",
+    "size": 1083723
   },
   "androidApk": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.1.1.apk",
-    "sha256": "ce7493d209628b23b97595afc1db69e3eff572acb791e12183a758bd086fe700",
-    "size": 15182527
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.12.apk",
+    "sha256": "730b599897d126b87283888f2dd2826552bac5c8c5b2e15bc91476ca93ab1ea1",
+    "size": 15183815
   },
   "webApp": {
-    "url": "https://cdn.jsdelivr.net/gh/zhangdx91-lang/app-release@v1.1.1/cdn/money-app-webapp-1.1.1.html",
-    "sha256": "082aa57fbcaabbb90e7461bff17eb2c2012777affb738e8f767986416a5944c7",
-    "size": 688849
+    "url": "https://cdn.jsdelivr.net/gh/zhangdx91-lang/app-release@v1.0.12/cdn/money-app-webapp-1.0.12.html",
+    "sha256": "088207e98ee52fc037ad28c784d2a2f1234d464ab597bcbf147605291201a88b",
+    "size": 689205
   },
-  "signature": "Abkk_E8hQ5VflX9GIHaq1qBAt9QOUTlzQsPKZLfmAmTtrw8uN7tOyWCZS-aplhhCtbvB7tsqWOIYa9keIP4aAQ"
+  "signature": "Z3XVnDnvBGRKePEjFOrK2M7w_NjJcbFDfxwObGNrWDQsU3AFrge5w8mydLTdRvi3uS9iWNrYNhO-CoKZ_lU2BQ"
 }
