@@ -1,0 +1,2 @@
+var e=/^(?:0|[1-9]\d{0,9})(?:\.\d{1,2})?$/;function t(t){let n=t.trim().replace(/,/g,``);if(!e.test(n))throw Error(`请输入最多两位小数的有效金额`);let[r,i=``]=n.split(`.`),a=Number(r)*100+Number(i.padEnd(2,`0`));if(!Number.isSafeInteger(a)||a<=0)throw Error(`金额必须大于 0`);return a}function n(e,t=!0){if(!Number.isSafeInteger(e))throw Error(`金额必须是整数分`);let n=e<0?`-`:``,r=Math.abs(e),i=`${Math.floor(r/100).toLocaleString(`zh-CN`)}.${String(r%100).padStart(2,`0`)}`;return`${n}${t?`¥`:``}${i}`}export{t as n,n as t};
+//# sourceMappingURL=money-DFtR1GNR.js.map
