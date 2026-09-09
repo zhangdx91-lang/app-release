@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "productVersion": "1.0.27",
-  "bundleVersion": "1.0.27+11",
+  "productVersion": "1.0.28",
+  "bundleVersion": "1.0.28+11",
   "minimumNativeBuild": 11,
   "dataSchemaVersion": 1,
-  "publishedAt": "2026-09-09T11:37:36.306Z",
+  "publishedAt": "2026-09-09T12:40:47.663Z",
   "releaseNotes": [
-    "修复：网页版更新完成自动刷新后，左上角返回按钮点击无反应的问题（刷新让 iOS 丢失上一页记录，现补上与手势返回一致的兜底：有上一页就退回，没有则回首页）"
+    "移除V1.0.24加入的「复制备份到剪贴板」按钮：实测在iPhone桌面应用里复制不可靠，点按提示复制失败；「备份并分享」修复后已可正常使用（不支持分享的环境自动改为下载文件），剪贴板通道失去存在必要"
   ],
   "webBundle": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.27.zip",
-    "sha256": "585750d4745f72c9bd4db657138681e535ec05f0b8d63fc77ff38369ce182606",
-    "size": 1104492
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.28.zip",
+    "sha256": "4e3742963fde6d41b76fa97d83cb863830ff709fecb47262466d491f88fb1683",
+    "size": 1103138
   },
   "androidApk": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.27.apk",
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.28.apk",
     "sha256": "a5cf60a17726afea738c0f21c38f0a8a6d6e0d16c2982953309b2541022e69d5",
     "size": 15219734
   },
-  "signature": "8LPz23ovLbn_uQULdel4nxpNb_mOsut75F6Xf4uFF6c6ApWTUCHCOBHEFpLivedqwWBFhUVGXjnqkTi2eSyLAg"
+  "signature": "5X76oLIyvMRfRHb8ectHbRCEg1WLIYMsHOMLi9hYyQcGyQhUeMY5WB8tfC3wK1p4rJ71UXWOzks30jTc-r-SCw"
 }
