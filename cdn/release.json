@@ -1,27 +1,22 @@
 {
   "schemaVersion": 1,
-  "productVersion": "1.0.19",
-  "bundleVersion": "1.0.19+7",
-  "minimumNativeBuild": 7,
+  "productVersion": "1.0.26",
+  "bundleVersion": "1.0.26+11",
+  "minimumNativeBuild": 11,
   "dataSchemaVersion": 1,
-  "publishedAt": "2026-08-28T08:13:09.791Z",
+  "publishedAt": "2026-09-09T11:25:44.045Z",
   "releaseNotes": [
-    "随手记首个 Vue 3 + Capacitor 版本"
+    "修复：网页版检查更新一直提示已是最新的问题（发布脚本丢失更新清单推送步骤，V1.0.20起网页版检查更新拿到的清单停留在V1.0.19）。发布脚本已补回该步骤并增加发布后自动校验"
   ],
   "webBundle": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.19.zip",
-    "sha256": "4f6e51c5a61cc85fd8d8c0186307f7b034093dba8c50bfb982a1e62204e217b3",
-    "size": 1077518
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.26.zip",
+    "sha256": "a341c002de86f56dd588875f4a8dae9cc335616b400a6783ddd7dd74792887f2",
+    "size": 1104340
   },
   "androidApk": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.19.apk",
-    "sha256": "5893552b7e8fdd1100280373744f4d0c6355b7edf478c9bdf90be25bc9747259",
-    "size": 15177786
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.26.apk",
+    "sha256": "a5cf60a17726afea738c0f21c38f0a8a6d6e0d16c2982953309b2541022e69d5",
+    "size": 15219734
   },
-  "webApp": {
-    "url": "https://cdn.jsdelivr.net/gh/zhangdx91-lang/app-release@v1.0.19/cdn/money-app-webapp-1.0.19.html",
-    "sha256": "c6445cefba13bdd013fa1c6c903b563b9ca4549a92f1a97287ee3e1a62875b79",
-    "size": 878207
-  },
-  "signature": "B84cm-iQjwans_YeuMLNYBRy4CqSbtO-SF6FLMOha4MK2LNb01ao6Pzc60-9c4ZrbdfpREbUzrBXA7nHfpHDAg"
+  "signature": "VrZBadrv7kTye31jrmelqGU_liaSWBPMomAXmZ8r_ei8_-WLyngeG8FmDrRpFZVlU3hG--6PPqmKQgZREzEWAQ"
 }
