@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "productVersion": "1.0.26",
-  "bundleVersion": "1.0.26+11",
+  "productVersion": "1.0.27",
+  "bundleVersion": "1.0.27+11",
   "minimumNativeBuild": 11,
   "dataSchemaVersion": 1,
-  "publishedAt": "2026-09-09T11:25:44.045Z",
+  "publishedAt": "2026-09-09T11:37:36.306Z",
   "releaseNotes": [
-    "修复：网页版检查更新一直提示已是最新的问题（发布脚本丢失更新清单推送步骤，V1.0.20起网页版检查更新拿到的清单停留在V1.0.19）。发布脚本已补回该步骤并增加发布后自动校验"
+    "修复：网页版更新完成自动刷新后，左上角返回按钮点击无反应的问题（刷新让 iOS 丢失上一页记录，现补上与手势返回一致的兜底：有上一页就退回，没有则回首页）"
   ],
   "webBundle": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.26.zip",
-    "sha256": "a341c002de86f56dd588875f4a8dae9cc335616b400a6783ddd7dd74792887f2",
-    "size": 1104340
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.27.zip",
+    "sha256": "585750d4745f72c9bd4db657138681e535ec05f0b8d63fc77ff38369ce182606",
+    "size": 1104492
   },
   "androidApk": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.26.apk",
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.27.apk",
     "sha256": "a5cf60a17726afea738c0f21c38f0a8a6d6e0d16c2982953309b2541022e69d5",
     "size": 15219734
   },
-  "signature": "VrZBadrv7kTye31jrmelqGU_liaSWBPMomAXmZ8r_ei8_-WLyngeG8FmDrRpFZVlU3hG--6PPqmKQgZREzEWAQ"
+  "signature": "8LPz23ovLbn_uQULdel4nxpNb_mOsut75F6Xf4uFF6c6ApWTUCHCOBHEFpLivedqwWBFhUVGXjnqkTi2eSyLAg"
 }
