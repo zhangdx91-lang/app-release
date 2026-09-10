@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "productVersion": "1.0.30",
-  "bundleVersion": "1.0.30+11",
+  "productVersion": "1.0.31",
+  "bundleVersion": "1.0.31+11",
   "minimumNativeBuild": 11,
   "dataSchemaVersion": 1,
-  "publishedAt": "2026-09-10T01:13:15.369Z",
+  "publishedAt": "2026-09-10T02:06:05.495Z",
   "releaseNotes": [
-    "改进：更新弹窗补上「下载中」过渡——网页版更新时不再从「正在检查中」直接跳「下载成功」，下载期间显示「新版本下载中」；网页版下载由浏览器后台完成、系统不提供真实百分比，此阶段显示「下载中…」（安卓热更新仍有精确百分比）"
+    "改进：发现新版本后立即进入「下载中」——此前下载前的联网检查被算在「发现新版本」阶段内，国内网络下卡很久；现在「发现新版本」只闪现一下，联网检查与资源下载全部归入「新版本下载中」"
   ],
   "webBundle": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.30.zip",
-    "sha256": "5258f7e13d51c9c6dfc446be8795e9d25b855b5ac2de2ccb48a801e8df76192a",
-    "size": 1103751
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.31.zip",
+    "sha256": "b65195ce770f0f4579b1bd2f979a28bd506f6c42f7fe0565e4d964b26dfca89b",
+    "size": 1103820
   },
   "androidApk": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.30.apk",
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.31.apk",
     "sha256": "a5cf60a17726afea738c0f21c38f0a8a6d6e0d16c2982953309b2541022e69d5",
     "size": 15219734
   },
-  "signature": "6dtmkfcfVGgHKyIeQaiTac7mIh3SHBQFNKkFLYVdmXRgpIHcAs1a_ETDYQl3uf3MFPZ5chfJc3MNVw_ol14FAw"
+  "signature": "W2rwntkEBAoHwhEFB1cTKfGs1PEAkzDCZfNUuEH-n2uKwnaiHbSaWB4W_dNey_4bD5aAPGhgP9GYwGj8oTK3AA"
 }
