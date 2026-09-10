@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "productVersion": "1.0.28",
-  "bundleVersion": "1.0.28+11",
+  "productVersion": "1.0.29",
+  "bundleVersion": "1.0.29+11",
   "minimumNativeBuild": 11,
   "dataSchemaVersion": 1,
-  "publishedAt": "2026-09-09T12:40:47.663Z",
+  "publishedAt": "2026-09-10T01:03:37.931Z",
   "releaseNotes": [
-    "移除V1.0.24加入的「复制备份到剪贴板」按钮：实测在iPhone桌面应用里复制不可靠，点按提示复制失败；「备份并分享」修复后已可正常使用（不支持分享的环境自动改为下载文件），剪贴板通道失去存在必要"
+    "修复iPhone网页版「检查更新」完成后页面假死的问题：点底部导航（流水/报表/记一笔）和页面链接均无反应，重新打开才恢复。原因是新版缓存接管的一瞬间立即刷新页面，iOS会偶发产出事件失灵的假死页面；现刷新前等待一小拍避开该时机。安卓App不受此问题影响，无需更新"
   ],
   "webBundle": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.28.zip",
-    "sha256": "4e3742963fde6d41b76fa97d83cb863830ff709fecb47262466d491f88fb1683",
-    "size": 1103138
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.29.zip",
+    "sha256": "dec14a83b8ca3334a2efe1192783ca5b93a1fa65cb1e126f209ce7def2352e9b",
+    "size": 1103379
   },
   "androidApk": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.28.apk",
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.29.apk",
     "sha256": "a5cf60a17726afea738c0f21c38f0a8a6d6e0d16c2982953309b2541022e69d5",
     "size": 15219734
   },
-  "signature": "5X76oLIyvMRfRHb8ectHbRCEg1WLIYMsHOMLi9hYyQcGyQhUeMY5WB8tfC3wK1p4rJ71UXWOzks30jTc-r-SCw"
+  "signature": "db8rCI3vhBt_4q2sB7m0MvpYHkkjrk4JfzdLH520jmfH-mY3uUrmJn7C6jGkI8LIKwGORV5phQ4UbiI7DqJdDw"
 }
