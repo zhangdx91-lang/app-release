@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "productVersion": "1.0.33",
-  "bundleVersion": "1.0.33+11",
+  "productVersion": "1.0.34",
+  "bundleVersion": "1.0.34+11",
   "minimumNativeBuild": 11,
   "dataSchemaVersion": 1,
-  "publishedAt": "2026-09-10T02:48:11.220Z",
+  "publishedAt": "2026-09-10T03:04:17.929Z",
   "releaseNotes": [
-    "修复：更新成功后刷新仍显示旧版本的问题（此前需要再检查一次才真正换新版，原因是新版缓存激活后未立即接管已打开页面）。改进：更新弹窗每步至少停留1秒；更新完成刷新后弹出「已成功更新到<版本号>」提示"
+    "随手记首个 Vue 3 + Capacitor 版本"
   ],
   "webBundle": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.33.zip",
-    "sha256": "c70dcc5d3941bb22c38bf4de973958a1ad4281665092454a6463494265c2365b",
-    "size": 1104988
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.34.zip",
+    "sha256": "216d377242eaa01542b2ab669f1cda6ece44c8961fc09ed4e870397c9cc45f6c",
+    "size": 1105836
   },
   "androidApk": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.33.apk",
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.34.apk",
     "sha256": "a5cf60a17726afea738c0f21c38f0a8a6d6e0d16c2982953309b2541022e69d5",
     "size": 15219734
   },
-  "signature": "IFSfuCWWxQ2DePSwgmB7j8Ccupds_vG9-0xlstmQM9_Y3zeGjZCjlelUdJeBmX-pjsPSPE6P9iHH12_2CIjpCg"
+  "signature": "Ab4BCuxgfWTnHwkL1VmHYgf8OJQYuS1iS2HSbugKdO6nLVZAQJ4IiZJ2M740edTmdySCnxshF1TgiBOgrSljBA"
 }
