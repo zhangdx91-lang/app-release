@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "productVersion": "1.0.29",
-  "bundleVersion": "1.0.29+11",
+  "productVersion": "1.0.30",
+  "bundleVersion": "1.0.30+11",
   "minimumNativeBuild": 11,
   "dataSchemaVersion": 1,
-  "publishedAt": "2026-09-10T01:03:37.931Z",
+  "publishedAt": "2026-09-10T01:13:15.369Z",
   "releaseNotes": [
-    "修复iPhone网页版「检查更新」完成后页面假死的问题：点底部导航（流水/报表/记一笔）和页面链接均无反应，重新打开才恢复。原因是新版缓存接管的一瞬间立即刷新页面，iOS会偶发产出事件失灵的假死页面；现刷新前等待一小拍避开该时机。安卓App不受此问题影响，无需更新"
+    "改进：更新弹窗补上「下载中」过渡——网页版更新时不再从「正在检查中」直接跳「下载成功」，下载期间显示「新版本下载中」；网页版下载由浏览器后台完成、系统不提供真实百分比，此阶段显示「下载中…」（安卓热更新仍有精确百分比）"
   ],
   "webBundle": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.29.zip",
-    "sha256": "dec14a83b8ca3334a2efe1192783ca5b93a1fa65cb1e126f209ce7def2352e9b",
-    "size": 1103379
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.30.zip",
+    "sha256": "5258f7e13d51c9c6dfc446be8795e9d25b855b5ac2de2ccb48a801e8df76192a",
+    "size": 1103751
   },
   "androidApk": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.29.apk",
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.30.apk",
     "sha256": "a5cf60a17726afea738c0f21c38f0a8a6d6e0d16c2982953309b2541022e69d5",
     "size": 15219734
   },
-  "signature": "db8rCI3vhBt_4q2sB7m0MvpYHkkjrk4JfzdLH520jmfH-mY3uUrmJn7C6jGkI8LIKwGORV5phQ4UbiI7DqJdDw"
+  "signature": "6dtmkfcfVGgHKyIeQaiTac7mIh3SHBQFNKkFLYVdmXRgpIHcAs1a_ETDYQl3uf3MFPZ5chfJc3MNVw_ol14FAw"
 }
