@@ -1,23 +1,22 @@
 {
   "schemaVersion": 1,
-  "productVersion": "1.0.38",
-  "bundleVersion": "1.0.38+11",
+  "productVersion": "1.0.39",
+  "bundleVersion": "1.0.39+11",
   "minimumNativeBuild": 11,
   "dataSchemaVersion": 1,
-  "publishedAt": "2026-09-12T10:59:22.883Z",
+  "publishedAt": "2026-09-12T11:29:47.375Z",
   "releaseNotes": [
-    "断网时点激活立刻弹吐司提醒，不再没反应",
-    "激活失败理由改为红色醒目显示，并说清为什么失败、该怎么办"
+    "修复故意少输入授权码时显示英文报错的问题，全部改为中文文案"
   ],
   "webBundle": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.38.zip",
-    "sha256": "1619937645c0e04b6c80658fb61ee1f2e330252da6a4f37e3951075c35f4ac9a",
-    "size": 1342983
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.39.zip",
+    "sha256": "acf6fdb1827b40505bfbbbfc9eb9528e75c69ad598b3f047a04593c2299f3976",
+    "size": 1343557
   },
   "androidApk": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.38.apk",
-    "sha256": "988f24e167956689eb3a26acd79a75d5b50928ee52eecbf55f7c3deb8f8c7da7",
-    "size": 16022563
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.39.apk",
+    "sha256": "abe96fe94213ae07073e5329190356add9fca7ed55a44a7808d01901f316a9f1",
+    "size": 16023111
   },
-  "signature": "cVR83wOs9-CCaVRq6uYOJnTqyCEPd9oZeTek4Fj1ev_BjSSbRwkM255OBvK80WQrJmY0QZ_-k50A2hX59niEBA"
+  "signature": "ID-V3wtYIcHhCVdBLpdwi6AuHd8YawDzfrWoLCXzuwpgYQv8Re4TC-oaJ-F0N8PxiwesfVh9MimFriFnUFNJBg"
 }
