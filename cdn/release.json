@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "productVersion": "1.0.37",
-  "bundleVersion": "1.0.37+11",
+  "productVersion": "1.0.38",
+  "bundleVersion": "1.0.38+11",
   "minimumNativeBuild": 11,
   "dataSchemaVersion": 1,
-  "publishedAt": "2026-09-12T10:13:20.404Z",
+  "publishedAt": "2026-09-12T10:59:22.883Z",
   "releaseNotes": [
-    "iPhone 主屏 App 打开不再白屏干等：启动瞬间显示 logo 启动画面，程序加载期间显示 logo+加载中占位",
-    "Android 启动等待期间同步显示 logo 加载占位"
+    "断网时点激活立刻弹吐司提醒，不再没反应",
+    "激活失败理由改为红色醒目显示，并说清为什么失败、该怎么办"
   ],
   "webBundle": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.37.zip",
-    "sha256": "3ba8b5c2164893c15c581b88c2ac1ef2af0b625faae393febf051e6b87c5e129",
-    "size": 1341897
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.38.zip",
+    "sha256": "1619937645c0e04b6c80658fb61ee1f2e330252da6a4f37e3951075c35f4ac9a",
+    "size": 1342983
   },
   "androidApk": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.37.apk",
-    "sha256": "927b3e85da2ee176df67558b2c161b5756086adac518d9f6e8bb0c40665c335b",
-    "size": 16021471
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.38.apk",
+    "sha256": "988f24e167956689eb3a26acd79a75d5b50928ee52eecbf55f7c3deb8f8c7da7",
+    "size": 16022563
   },
-  "signature": "nIugqc-mMqdDDDVw7XJj3TlVk4avEEp2wVLQ1-VaDlXg3HVm5mm5RGzHtglNWzFiAvmhln-l82gcQFlfbxKLCQ"
+  "signature": "cVR83wOs9-CCaVRq6uYOJnTqyCEPd9oZeTek4Fj1ev_BjSSbRwkM255OBvK80WQrJmY0QZ_-k50A2hX59niEBA"
 }
