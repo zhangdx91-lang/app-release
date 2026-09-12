@@ -1,22 +1,23 @@
 {
   "schemaVersion": 1,
-  "productVersion": "1.0.36",
-  "bundleVersion": "1.0.36+11",
+  "productVersion": "1.0.37",
+  "bundleVersion": "1.0.37+11",
   "minimumNativeBuild": 11,
   "dataSchemaVersion": 1,
-  "publishedAt": "2026-09-12T02:51:25.546Z",
+  "publishedAt": "2026-09-12T10:13:20.404Z",
   "releaseNotes": [
-    "随手记首个 Vue 3 + Capacitor 版本"
+    "iPhone 主屏 App 打开不再白屏干等：启动瞬间显示 logo 启动画面，程序加载期间显示 logo+加载中占位",
+    "Android 启动等待期间同步显示 logo 加载占位"
   ],
   "webBundle": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.36.zip",
-    "sha256": "67e624f5b1e9cd2788c3a3652d895278132289662db01e8fd91abee3de1a8ec7",
-    "size": 1106425
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.37.zip",
+    "sha256": "3ba8b5c2164893c15c581b88c2ac1ef2af0b625faae393febf051e6b87c5e129",
+    "size": 1341897
   },
   "androidApk": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.36.apk",
-    "sha256": "b278d749ffe4cb6808b06803908b0d84788bc6e7c04a13d0e130a7ffbaf5138a",
-    "size": 15223478
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.37.apk",
+    "sha256": "927b3e85da2ee176df67558b2c161b5756086adac518d9f6e8bb0c40665c335b",
+    "size": 16021471
   },
-  "signature": "xQ3PBtStYB4EVb9sV8BlNTaTNeGT8ohiPuH2RSDFIjTFkkv72NL3y_fgHn7ZjPuGR5FsoEVChB0MEr8PQdztDw"
+  "signature": "nIugqc-mMqdDDDVw7XJj3TlVk4avEEp2wVLQ1-VaDlXg3HVm5mm5RGzHtglNWzFiAvmhln-l82gcQFlfbxKLCQ"
 }
