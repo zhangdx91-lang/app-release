@@ -1,22 +1,27 @@
 {
   "schemaVersion": 1,
-  "productVersion": "1.0.39",
-  "bundleVersion": "1.0.39+11",
-  "minimumNativeBuild": 11,
+  "productVersion": "1.0.45",
+  "bundleVersion": "1.0.45+17",
+  "minimumNativeBuild": 17,
   "dataSchemaVersion": 1,
-  "publishedAt": "2026-09-12T11:29:47.375Z",
+  "publishedAt": "2026-09-20T15:01:25.769Z",
   "releaseNotes": [
-    "修复故意少输入授权码时显示英文报错的问题，全部改为中文文案"
+    "九处体验修复：浮层返回手势先关弹窗、确认弹窗统一居中样式、备注键盘不再闪动、报表页标题栏与汇总卡重排、关于我们页排版、检查更新文案",
+    "分类颜色：一级分类各配预设色、二级分类同组不同色，流水图标、分类选择、报表统计全面上色，分类管理可自定义颜色",
+    "首页本月分类支出排行改按一级分类聚合显示",
+    "报表页支出分布与支出分类占比支持切换一级/二级分类",
+    "饼图占比低于2%的小项自动合并为「其他」",
+    "报表页汇总卡片改为白底样式，与页面风格统一"
   ],
   "webBundle": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.39.zip",
-    "sha256": "acf6fdb1827b40505bfbbbfc9eb9528e75c69ad598b3f047a04593c2299f3976",
-    "size": 1343557
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.45.zip",
+    "sha256": "481313bf58aa3dd67d0d564a5cf99a4fc292eef152ab0b17340dc7dc4525c419",
+    "size": 1375048
   },
   "androidApk": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.39.apk",
-    "sha256": "abe96fe94213ae07073e5329190356add9fca7ed55a44a7808d01901f316a9f1",
-    "size": 16023111
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.45.apk",
+    "sha256": "8e08ccae50b95208bd5f58889586a8086e91fb713631e7c23d2ccde64cd9d0eb",
+    "size": 16054578
   },
-  "signature": "ID-V3wtYIcHhCVdBLpdwi6AuHd8YawDzfrWoLCXzuwpgYQv8Re4TC-oaJ-F0N8PxiwesfVh9MimFriFnUFNJBg"
+  "signature": "0ndaq53Jn-em1vLdxHVkjI052IskhwZs4jUofb_OeRWP3pKcktJeDJE5Pydgi8CS-rHfcnmcs6bI9y8tMmQiCA"
 }
