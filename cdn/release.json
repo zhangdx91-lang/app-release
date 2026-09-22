@@ -1,24 +1,23 @@
 {
   "schemaVersion": 1,
-  "productVersion": "1.0.46",
-  "bundleVersion": "1.0.46+17",
+  "productVersion": "1.0.47",
+  "bundleVersion": "1.0.47+17",
   "minimumNativeBuild": 17,
   "dataSchemaVersion": 1,
-  "publishedAt": "2026-09-22T12:08:17.758Z",
+  "publishedAt": "2026-09-22T13:01:53.419Z",
   "releaseNotes": [
-    "月收支趋势图增加收入、支出渐变面积",
-    "图例改为居中可点击开关，浮窗与可见曲线联动",
-    "更新应用图标、启动页与关于页品牌标识"
+    "优化收支趋势图浮窗视觉与层级",
+    "调整记一笔金额键盘保存键布局"
   ],
   "webBundle": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.46.zip",
-    "sha256": "d910f232df1098c3bea1a8d87b1770b5fba421b800adc0817a20bc9f64ee44a3",
-    "size": 2046350
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.47.zip",
+    "sha256": "197dd11b12b767e573277e73ab2a775daf8df35b86a5e2af55242a3acf2bff5f",
+    "size": 2046799
   },
   "androidApk": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.46.apk",
-    "sha256": "0a54023ef5dd062bc1083b23055d2a74588e5ef3d455c6386f16e25048d9d627",
-    "size": 16722311
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.47.apk",
+    "sha256": "e16584fe263487a0782cdb08459cc1593871110f2d60d524659801632ab35aee",
+    "size": 16722899
   },
-  "signature": "3DifxLdAc1beEe8cPkFtgEVGKWWY0aC597Cc3Lhct4u51UKuTvETo7RxGqStXPaZomuIaN9APACid-w3kScWAQ"
+  "signature": "OXCwiBzwf8h_GwoZNx8qHoUCsCpg78u3WteEjuy8sZJFQnh5kgIpTRNYkBeEJP5ELMNNglt4Z3nuvReGW-s6Cg"
 }
