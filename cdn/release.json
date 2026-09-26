@@ -4,20 +4,20 @@
   "bundleVersion": "1.0.51+19",
   "minimumNativeBuild": 19,
   "dataSchemaVersion": 1,
-  "publishedAt": "2026-09-26T14:46:33.431Z",
+  "publishedAt": "2026-09-26T15:47:33.549Z",
   "releaseNotes": [
-    "安卓桌面图标与启动页更换为新版定稿视觉（白圆放大版）",
-    "网页版图标、iPhone 启动图与加载页同步更新"
+    "备份并分享改为分享 Excel 文件（微信不支持接收 CSV 文件，此前分享到微信只有文字没有文档）",
+    "备份为 Excel 改为纯保存到下载文件夹，不弹分享"
   ],
   "webBundle": {
     "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.51.zip",
-    "sha256": "86b279aef4889fe3fcce507859de1661fa4825928c658771c0cc49921ea9ce5e",
-    "size": 2533843
+    "sha256": "373a8973bb11d8a22a64676496a2cce5c546806b5fc8632ab45f3671376f3d8e",
+    "size": 2533974
   },
   "androidApk": {
     "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.51.apk",
-    "sha256": "7ed50d9e01751c85ca3a9beb3a7882681263c56c1c4992303f398c55d72441a9",
-    "size": 16736370
+    "sha256": "bae679573a90179b2398cd967c22f9e45326e3c60d05ee715bf5ed1450d51ff0",
+    "size": 16736490
   },
-  "signature": "lvWNPkyJoztScxSknoRQCpVOVhVnOOSEaFrpOx1cRxB6pgH_fOYW04q1HvZNSpBgaYW1fwAvbGs4F7r4KCwTBA"
+  "signature": "SkLgsnVumDD2UyJyUKpfqYS1rwO6PIgj4FwixfbDq5qnOOuZaD8fDQSWBjPjsQoWqEVFqb2eyh0IdDtw5nYzBA"
 }
