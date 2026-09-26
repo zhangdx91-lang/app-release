@@ -1,22 +1,25 @@
 {
   "schemaVersion": 1,
-  "productVersion": "1.0.50",
-  "bundleVersion": "1.0.50+17",
+  "productVersion": "1.0.51",
+  "bundleVersion": "1.0.51+17",
   "minimumNativeBuild": 17,
   "dataSchemaVersion": 1,
-  "publishedAt": "2026-09-23T15:31:39.693Z",
+  "publishedAt": "2026-09-26T12:34:11.145Z",
   "releaseNotes": [
-    "随手记首个 Vue 3 + Capacitor 版本"
+    "新增 Excel 备份与恢复：可生成 xlsx 完整备份，支持导入随手记平台导出的 Excel",
+    "优化分类管理：支持拖动排序、预设图标修正、自建二级分类可换组",
+    "安卓桌面图标与启动页更新为抽屉账本新视觉（需安装 APK 生效）",
+    "新增网页版新入口 zhantong.hn.cn/app/，原入口继续可用"
   ],
   "webBundle": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.50.zip",
-    "sha256": "8f640722c9d53dddff714cc03056ca739c62ab326947ea271c85f78a4ca089fe",
-    "size": 2055245
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.51.zip",
+    "sha256": "ea8c12e5b65249c16f898e6e90e8f594e46b89a914cdcb7ddbb9c5fd82efa377",
+    "size": 2716999
   },
   "androidApk": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.50.apk",
-    "sha256": "c94441edcfff97bd620c21ece39250c227bdb4a7649b2d5d0855f28562c8a37c",
-    "size": 16731217
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.51.apk",
+    "sha256": "f13941713b847f38bb27b55e4aaa4809ba866c0b700f0ec6533aa555ca5611fc",
+    "size": 17385594
   },
-  "signature": "T4dt3FK8JdFavnftdUfUDTpxONHhA4npb-PWBBoUo0CNq7Bw5x4mqK5lkNcI8gzPeIyKGa1oIlYkgDth_s1FDQ"
+  "signature": "gVWnlqkYx--MZAp4SkVSLZJtWyb9Ea3ADGhV_51qwHd07TCEf8NZymIzeXmRHlTOSLz9T9j9JnhuXGMqugLbCg"
 }
