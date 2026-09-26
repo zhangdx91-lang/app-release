@@ -4,7 +4,7 @@
   "bundleVersion": "1.0.51+18",
   "minimumNativeBuild": 18,
   "dataSchemaVersion": 1,
-  "publishedAt": "2026-09-26T13:53:37.732Z",
+  "publishedAt": "2026-09-26T14:06:59.783Z",
   "releaseNotes": [
     "新增 Excel 备份与恢复：可生成 xlsx 完整备份，支持导入随手记平台导出的 Excel",
     "优化分类管理：支持拖动排序、预设图标修正、自建二级分类可换组",
@@ -13,13 +13,13 @@
   ],
   "webBundle": {
     "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.51.zip",
-    "sha256": "1c3c5edffe3d99bbaf64f7ce55627672127ba1de6ce7ace13443b2febdd91d79",
-    "size": 2717002
+    "sha256": "b46c0083e20a563ed905eee0f031d3f0d1acfb3492c94bb8c3b3ad9b243461fa",
+    "size": 2717000
   },
   "androidApk": {
     "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.51.apk",
-    "sha256": "7d02d54c5c3afef2a2e8cf6b04311e5d6620f39b5582c8223e1c0f420d8a2d39",
-    "size": 17320782
+    "sha256": "2368fd9336dc7f6a755d1817ff2986b3e170e7548eb984b682b079d911bd5643",
+    "size": 17317286
   },
-  "signature": "RSjhSK-UI8DEjsEPeKQmbpStH33SicPXI8HgXHg63tN_njkiGeI6IGgbo0fc9nmkA9JKsuTm7pyFwfXUUAfvCQ"
+  "signature": "sCy2-_s0FCnYLLRlhov3F9aLrRYrSJpzAqrEGWC6KwXAU5oKhD54s3fzb2fEY74kGTbDyCsKyZNku3nwC6VKCw"
 }
