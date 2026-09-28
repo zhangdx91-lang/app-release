@@ -1,23 +1,28 @@
 {
   "schemaVersion": 1,
-  "productVersion": "1.0.51",
-  "bundleVersion": "1.0.51+19",
-  "minimumNativeBuild": 19,
+  "productVersion": "1.0.52",
+  "bundleVersion": "1.0.52+20",
+  "minimumNativeBuild": 20,
   "dataSchemaVersion": 1,
-  "publishedAt": "2026-09-26T15:47:33.549Z",
+  "publishedAt": "2026-09-28T07:22:49.710Z",
   "releaseNotes": [
-    "备份并分享改为分享 Excel 文件（微信不支持接收 CSV 文件，此前分享到微信只有文字没有文档）",
-    "备份为 Excel 改为纯保存到下载文件夹，不弹分享"
+    "修复网页版启动卡死：本地账本打开超时明确提示可重试，数据不会被删除",
+    "备份统一输出 CSV，「备份并分享」把 CSV 作为文件附件发出",
+    "报表按一级支出分类统计，点分类可跳转流水明细",
+    "流水页新增时间+分类级联筛选，筛选条件随网址保留",
+    "分类管理「支出/收入」切换移入标题栏",
+    "修复记一笔保存按钮被键盘顶走",
+    "安卓改用系统默认启动过渡（需安装新版 APK）"
   ],
   "webBundle": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.51.zip",
-    "sha256": "373a8973bb11d8a22a64676496a2cce5c546806b5fc8632ab45f3671376f3d8e",
-    "size": 2533974
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.52.zip",
+    "sha256": "420a60a9ba36ba522ce33f4bf8b8e26d3c0657f867830e1a15607b11ecc070f7",
+    "size": 2554943
   },
   "androidApk": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.51.apk",
-    "sha256": "bae679573a90179b2398cd967c22f9e45326e3c60d05ee715bf5ed1450d51ff0",
-    "size": 16736490
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.52.apk",
+    "sha256": "eff98eb0501d3fb6fe148cd7b0fd0d6753c6b00a7525d85e1a0660bc6f6874e1",
+    "size": 16669438
   },
-  "signature": "SkLgsnVumDD2UyJyUKpfqYS1rwO6PIgj4FwixfbDq5qnOOuZaD8fDQSWBjPjsQoWqEVFqb2eyh0IdDtw5nYzBA"
+  "signature": "S7rzYY0A8MQco5rWDhsAZVMAVlyLEnGAUDm_tywjpLLG6-YqGMe7VDDi1DwVcsU4E-99XU8MHyKgtC8G5bMuDg"
 }
