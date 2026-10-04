@@ -1,28 +1,27 @@
 {
   "schemaVersion": 1,
-  "productVersion": "1.0.52",
-  "bundleVersion": "1.0.52+20",
+  "productVersion": "1.0.53",
+  "bundleVersion": "1.0.53+20",
   "minimumNativeBuild": 20,
   "dataSchemaVersion": 1,
-  "publishedAt": "2026-09-28T07:22:49.710Z",
+  "publishedAt": "2026-10-04T01:22:14.878Z",
   "releaseNotes": [
-    "修复网页版启动卡死：本地账本打开超时明确提示可重试，数据不会被删除",
-    "备份统一输出 CSV，「备份并分享」把 CSV 作为文件附件发出",
-    "报表按一级支出分类统计，点分类可跳转流水明细",
-    "流水页新增时间+分类级联筛选，筛选条件随网址保留",
-    "分类管理「支出/收入」切换移入标题栏",
-    "修复记一笔保存按钮被键盘顶走",
-    "安卓改用系统默认启动过渡（需安装新版 APK）"
+    "收支浮窗固定在曲线图上方，随日期竖线同步移动；曲线图不再单独显示图例",
+    "修复滑动时部分曲线变淡的问题",
+    "支出分布默认按二级分类展示，可切换一级分类；占比环图仍按一级分类统计",
+    "收入来源与支出分布可进入当前报表时间范围内的分类流水",
+    "首页分类支出排行按二级分类展示",
+    "修复千元以上金额编辑回填、流水返回滚动位置及分类搜索弹窗高度"
   ],
   "webBundle": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.52.zip",
-    "sha256": "420a60a9ba36ba522ce33f4bf8b8e26d3c0657f867830e1a15607b11ecc070f7",
-    "size": 2554943
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.53.zip",
+    "sha256": "6d71d9bd0586b58ba41461641157c6bcafc855ce1e40750cfc7ab95b83486654",
+    "size": 2501413
   },
   "androidApk": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.52.apk",
-    "sha256": "eff98eb0501d3fb6fe148cd7b0fd0d6753c6b00a7525d85e1a0660bc6f6874e1",
-    "size": 16669438
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.53.apk",
+    "sha256": "28e0bcca1b09f3afdfe9844b1d6f1246c42e82891801cafab1e7b3649e78beb6",
+    "size": 16615506
   },
-  "signature": "S7rzYY0A8MQco5rWDhsAZVMAVlyLEnGAUDm_tywjpLLG6-YqGMe7VDDi1DwVcsU4E-99XU8MHyKgtC8G5bMuDg"
+  "signature": "PaIJYfgPTwv5jBFwQ0eM4UO9jIsXleSbIZb317XEX1p7CtFHTgJzhVAI6GoAtymFaUQXG3qZ-l1rtYXKQrBwBQ"
 }
