@@ -1,27 +1,22 @@
 {
   "schemaVersion": 1,
-  "productVersion": "1.0.53",
-  "bundleVersion": "1.0.53+20",
+  "productVersion": "1.0.54",
+  "bundleVersion": "1.0.54+20",
   "minimumNativeBuild": 20,
   "dataSchemaVersion": 1,
-  "publishedAt": "2026-10-04T01:22:14.878Z",
+  "publishedAt": "2026-10-09T12:24:53.676Z",
   "releaseNotes": [
-    "收支浮窗固定在曲线图上方，随日期竖线同步移动；曲线图不再单独显示图例",
-    "修复滑动时部分曲线变淡的问题",
-    "支出分布默认按二级分类展示，可切换一级分类；占比环图仍按一级分类统计",
-    "收入来源与支出分布可进入当前报表时间范围内的分类流水",
-    "首页分类支出排行按二级分类展示",
-    "修复千元以上金额编辑回填、流水返回滚动位置及分类搜索弹窗高度"
+    "更新开发者微信二维码，可扫码或保存二维码后联系作者"
   ],
   "webBundle": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.53.zip",
-    "sha256": "6d71d9bd0586b58ba41461641157c6bcafc855ce1e40750cfc7ab95b83486654",
-    "size": 2501413
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.54.zip",
+    "sha256": "22e6fecf5a318a1295066fead56b0dc45439621ee79e40ebefa7988d7d426e27",
+    "size": 2440123
   },
   "androidApk": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.53.apk",
-    "sha256": "28e0bcca1b09f3afdfe9844b1d6f1246c42e82891801cafab1e7b3649e78beb6",
-    "size": 16615506
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.54.apk",
+    "sha256": "6cef491b79725dd3734b9217fcad42d84098ca52d370a3602c1acd05b0811b81",
+    "size": 16555334
   },
-  "signature": "PaIJYfgPTwv5jBFwQ0eM4UO9jIsXleSbIZb317XEX1p7CtFHTgJzhVAI6GoAtymFaUQXG3qZ-l1rtYXKQrBwBQ"
+  "signature": "9QfKpp5k5KgOYqCX20eut2hyQv-jW6mz3P9hHPb5Kx23o7SFYApuamYLfNiZZiBYVarFJ5Xh_x_bEEkS1265BQ"
 }
