@@ -1,22 +1,25 @@
 {
   "schemaVersion": 1,
-  "productVersion": "1.0.54",
-  "bundleVersion": "1.0.54+20",
+  "productVersion": "1.0.55",
+  "bundleVersion": "1.0.55+20",
   "minimumNativeBuild": 20,
   "dataSchemaVersion": 1,
-  "publishedAt": "2026-10-09T12:24:53.676Z",
+  "publishedAt": "2026-10-21T13:08:23.883Z",
   "releaseNotes": [
-    "更新开发者微信二维码，可扫码或保存二维码后联系作者"
+    "报表新增日均/月均支出，支持排除分类（树状勾选，只影响该指标）",
+    "大数据量性能优化：启动与备份恢复提速、记账即时生效、流水页渲染上限",
+    "首页去掉顶部标题栏",
+    "修复记账页金额末尾小数点显示"
   ],
   "webBundle": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.54.zip",
-    "sha256": "22e6fecf5a318a1295066fead56b0dc45439621ee79e40ebefa7988d7d426e27",
-    "size": 2440123
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-web-1.0.55.zip",
+    "sha256": "fb598dfca8fc127f28db00349a7b064a5aa6b51fa9aaf7517962c52e16f7d98c",
+    "size": 2452798
   },
   "androidApk": {
-    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.54.apk",
-    "sha256": "6cef491b79725dd3734b9217fcad42d84098ca52d370a3602c1acd05b0811b81",
-    "size": 16555334
+    "url": "https://github.com/zhangdx91-lang/app-release/releases/latest/download/money-app-1.0.55.apk",
+    "sha256": "a6037225776de81b15f7d7d8ec851fc3a6752a6054c88abcf5d451185d808f66",
+    "size": 16567670
   },
-  "signature": "9QfKpp5k5KgOYqCX20eut2hyQv-jW6mz3P9hHPb5Kx23o7SFYApuamYLfNiZZiBYVarFJ5Xh_x_bEEkS1265BQ"
+  "signature": "UTz5eQt5YshDrR4lE6XDwkJmANMrViul_N0sGawbkqvqHAaCSZGCE7usESv4_50p7oXxMO3UM3EVFSXwN7ZqDg"
 }
